@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/output.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="h-screen w-screen bg-white flex justify-center items-center">
+        <form class="h-5/6 w-3/6 bg-white flex flex-col items-center p-10" action="/login" method="post">
+            <h1 class="text-2xl font-bold">Login</h1>
+            <input class="mt-16 w-3/6 border-b-2 border-sky-400 focus:outline-none focus:border-b-4" type="text" name="username" placeholder="username">
+            <input class="mt-10 w-3/6 border-b-2 border-sky-400 focus:outline-none focus:border-b-4" type="password" name="password" placeholder="Password">
+            <button class="mt-10 bg-white border-2 border-sky-400 w-3/6 h-10 rounded-md text-sky-400">Login</button>
+            <a class="mt-10 w-3/6 h-10 text-white bg-blue-600 flex justify-center items-center rounded-md hover:border-2 hover:border-blue-600 hover:bg-white hover:text-blue-600" href="/google">Login via Google</a>
+        </form>
+    </div>
+</body>
+</html>
